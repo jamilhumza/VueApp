@@ -3,6 +3,7 @@
 A simple web app with a Vue.js client that consumes a Node.js + Express API.
 
 ### Installation
+Clone the repository. In root directory:
 
 ```
 npm install
