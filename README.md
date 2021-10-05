@@ -33,4 +33,4 @@ cd client
 npm run serve
 ```
 
-View the application on localhost:8080.
+View the application on http://localhost:8080/.
