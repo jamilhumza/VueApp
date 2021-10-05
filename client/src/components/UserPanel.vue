@@ -7,9 +7,7 @@
         v-bind:key="value"
       >
         <img
-          v-for="picture in pictures"
-          v-bind:key="picture.pic"
-          src="{{picture.pic}}"
+          src="https://picsum.photos/50"
           class="w3-bar-item w3-circle w3-hide-small"
           style="width:85px"
         />
@@ -27,7 +25,7 @@
         v-bind:key="value"
       >
         <img
-          src="img_avatar5.png"
+          src="https://picsum.photos/50"
           class="w3-bar-item w3-circle w3-hide-small"
           style="width:85px"
         />
@@ -47,14 +45,6 @@ export default {
   data() {
     return {
       users: {},
-      pictures: [
-        { pic: 'https://picsum.photos/100' },
-        { pic: 'https://picsum.photos/100' },
-        { pic: 'https://picsum.photos/100' },
-        { pic: 'https://picsum.photos/100' },
-        { pic: 'https://picsum.photos/100' },
-        { pic: 'https://picsum.photos/100' },
-      ],
     }
   },
 
